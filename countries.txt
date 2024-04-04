@@ -1,0 +1,291 @@
+1.	Nigeria
+•	Main Food: Jollof rice
+•	Flag Colors: Green, white, green
+•	National Animal: Eagle
+2.	South Africa
+•	Main Food: Braai (Barbecue)
+•	Flag Colors: Red, blue, green, black, yellow, white
+•	National Animal: Springbok
+3.	Kenya
+•	Main Food: Ugali with Sukuma Wiki
+•	Flag Colors: Black, red, white, green
+•	National Animal: Lion
+4.	Ghana
+•	Main Food: Fufu with Light Soup
+•	Flag Colors: Red, yellow, green
+•	National Animal: Golden eagle
+5.	Ethiopia
+•	Main Food: Injera with Wat
+•	Flag Colors: Green, yellow, red
+•	National Animal: Lion
+6.	Egypt
+•	Main Food: Koshari
+•	Flag Colors: Red, white, black, gold
+•	National Animal: Steppe eagle
+7.	Morocco
+•	Main Food: Tagine
+•	Flag Colors: Red, green
+•	National Animal: Barbary lion
+8.	Tanzania
+•	Main Food: Ugali with Nyama Choma
+•	Flag Colors: Green, black, yellow, blue
+•	National Animal: Giraffe
+9.	Uganda
+•	Main Food: Matoke
+•	Flag Colors: Black, yellow, red
+•	National Animal: Grey crowned crane
+10.	Ivory Coast (Côte d'Ivoire)
+•	Main Food: Alloco with Grilled Fish
+•	Flag Colors: Orange, white, green
+•	National Animal: Elephant
+11.	Cameroon
+•	Main Food: Ndole
+•	Flag Colors: Green, red, yellow
+•	National Animal: Lion
+12.	Zimbabwe
+•	Main Food: Sadza with Nyama
+•	Flag Colors: Green, yellow, red, black, white
+•	National Animal: Sable antelope
+13.	Mali
+•	Main Food: Maafe
+•	Flag Colors: Green, yellow, red
+•	National Animal: Hippopotamus
+14.	Angola
+•	Main Food: Moamba de Galinha
+•	Flag Colors: Red, black, yellow, white
+•	National Animal: Giant sable antelope
+15.	Senegal
+•	Main Food: Thieboudienne
+•	Flag Colors: Green, yellow, red
+•	National Animal: Lion
+
+asia 
+China
+
+Main Food: Peking duck
+Flag Colors: Red, yellow
+National Animal: Giant panda
+India
+
+Main Food: Curry (various types)
+Flag Colors: Saffron, white, green
+National Animal: Bengal tiger
+Japan
+
+Main Food: Sushi
+Flag Colors: Red, white
+National Animal: Japanese macaque (Snow monkey)
+South Korea
+
+Main Food: Kimchi
+Flag Colors: Red, white, blue, black
+National Animal: Siberian tiger
+Thailand
+
+Main Food: Pad Thai
+Flag Colors: Red, white, blue
+National Animal: Thai elephant
+Indonesia
+
+Main Food: Nasi Goreng
+Flag Colors: Red, white
+National Animal: Komodo dragon
+Vietnam
+
+Main Food: Pho
+Flag Colors: Red, yellow
+National Animal: Water buffalo
+Pakistan
+
+Main Food: Biryani
+Flag Colors: Green, white
+National Animal: Markhor
+Turkey
+
+Main Food: Kebab
+Flag Colors: Red, white
+National Animal: Gray wolf
+Saudi Arabia
+
+Main Food: Kabsa
+Flag Colors: Green, white
+National Animal: Arabian camel
+Iran
+
+Main Food: Chelow kabab
+Flag Colors: Green, white, red
+National Animal: Asiatic cheetah
+Iraq
+
+Main Food: Masgouf
+Flag Colors: Red, white, black
+National Animal: Arabian horse
+Bangladesh
+
+Main Food: Rice and curry
+Flag Colors: Green, red
+National Animal: Bengal tiger
+Philippines
+
+Main Food: Adobo
+Flag Colors: Blue, red, yellow, white
+National Animal: Philippine eagle
+Malaysia
+
+Main Food: Nasi lemak
+Flag Colors: Red, white, blue, yellow
+National Animal: Malayan tiger
+
+europe
+
+France
+Main Food: Croissant, Coq au Vin
+Flag Colors: Blue, white, red
+National Animal: Gallic rooster
+
+Germany
+Main Food: Bratwurst, Sauerkraut
+Flag Colors: Black, red, gold
+National Animal: Eagle
+Italy
+
+Main Food: Pizza, Pasta
+Flag Colors: Green, white, red
+National Animal: Italian wolf
+United Kingdom
+
+Main Food: Fish and Chips, Roast Beef
+Flag Colors: Red, white, blue
+National Animal: Lion
+Spain
+
+Main Food: Paella, Tapas
+Flag Colors: Red, yellow
+National Animal: Bull
+Russia
+
+Main Food: Borscht, Pelmeni
+Flag Colors: White, blue, red
+National Animal: Russian bear
+Greece
+
+Main Food: Moussaka, Souvlaki
+Flag Colors: Blue, white
+National Animal: Dolphin
+Netherlands
+
+Main Food: Stroopwafel, Haring
+Flag Colors: Red, white, blue
+National Animal: Lion
+Switzerland
+
+Main Food: Fondue, Rösti
+Flag Colors: Red, white
+National Animal: Ibex
+Sweden
+
+Main Food: Meatballs, Smörgåsbord
+Flag Colors: Blue, yellow
+National Animal: Moose
+Portugal
+
+Main Food: Bacalhau, Pastéis de Nata
+Flag Colors: Green, red
+National Animal: Rooster of Barcelos
+Norway
+
+Main Food: Gravlaks, Kjøttboller
+Flag Colors: Red, white, blue
+National Animal: Elk
+Austria
+
+Main Food: Wiener Schnitzel, Apfelstrudel
+Flag Colors: Red, white
+National Animal: Black eagle
+Belgium
+
+Main Food: Belgian fries, Moules-frites
+Flag Colors: Black, yellow, red
+National Animal: Lion
+Denmark
+
+Main Food: Smørrebrød, Frikadeller
+Flag Colors: Red, white
+National Animal: Mute swan
+
+american states;
+
+California
+Iconic Food: Fish Tacos, In-N-Out Burger
+Flag Colors: Blue, white, red
+State Animal: California grizzly bear
+
+Texas
+Iconic Food: BBQ Brisket, Tex-Mex
+Flag Colors: Red, white, blue
+State Animal: Texas longhorn
+New York
+
+Iconic Food: New York-style Pizza, Bagels
+Flag Colors: Blue, white
+State Animal: Beaver
+Florida
+
+Iconic Food: Key Lime Pie, Cuban Sandwich
+Flag Colors: Red, white
+State Animal: Florida panther
+Louisiana
+
+Iconic Food: Gumbo, Po'boys
+Flag Colors: Blue, white
+State Animal: American black bear
+Hawaii
+
+Iconic Food: Poke, Loco Moco
+Flag Colors: Blue, white, red
+State Animal: Hawaiian monk seal
+Illinois
+
+Iconic Food: Deep Dish Pizza, Chicago-style Hot Dog
+Flag Colors: Blue, white
+State Animal: White-tailed deer
+Colorado
+
+Iconic Food: Green Chile, Bison Burger
+Flag Colors: Blue, white, red, yellow
+State Animal: Rocky Mountain bighorn sheep
+Alaska
+
+Iconic Food: Salmon, King Crab Legs
+Flag Colors: Blue, yellow
+State Animal: Moose
+Nevada
+
+Iconic Food: Buffet, Basque Cuisine
+Flag Colors: Blue, white
+State Animal: Desert bighorn sheep
+Arizona
+
+Iconic Food: Sonoran Hot Dogs, Chimichangas
+Flag Colors: Blue, yellow
+State Animal: Ring-tailed cat
+Georgia
+
+Iconic Food: Peach Cobbler, Fried Chicken
+Flag Colors: Blue, white
+State Animal: White-tailed deer
+Massachusetts
+
+Iconic Food: Clam Chowder, Lobster Roll
+Flag Colors: Blue, white
+State Animal: Right whale
+Washington
+
+Iconic Food: Salmon, Dungeness Crab
+Flag Colors: Green, white
+State Animal: Olympic marmot
+Tennessee
+
+Iconic Food: Memphis BBQ, Hot Chicken
+Flag Colors: Red, white, blue
+State Animal: Raccoon
