@@ -1,1 +1,1 @@
-PLAYER_1 WINS | 3 | PLAYER_2 WINS | 2 | DRAWS | 0 |
+c WINS | 0 | r WINS | 0 | DRAWS | 2 |

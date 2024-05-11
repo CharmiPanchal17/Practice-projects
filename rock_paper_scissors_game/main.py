@@ -214,15 +214,15 @@ class Game_Rock_Paper_Scissors_Friend:
             print("File Not found!")
             
     # writting to score_friend.txt
-    def save_scores_friend(self):
+    def save_scores_friend(self, player_1_name, player_2_name):
         with open("score_friend.txt", "w+") as file:
-            file.write(f"PLAYER_1 WINS | {self.player1_wins} |")
-            file.write(f" PLAYER_2 WINS | {self.player2_wins} |")
+            file.write(f"{player_1_name}'s WINS | {self.player1_wins} |")
+            file.write(f" {player_2_name}'s WINS | {self.player2_wins} |")
             file.write(f" DRAWS | {self.draws} |")
 
     # to draw a graph
-    def draw_bar_graph_friend(self):
-        labels = ['Player1_wins', 'Player2_wins', 'Draws']
+    def draw_bar_graph_friend(self, player_1_name, player_2_name):
+        labels = [f'{player_1_name} points', f'{player_2_name} points', 'Draws']
         values = [self.player1_wins, self.player2_wins, self.draws]
 
         plt.bar(labels, values, color=['green', 'red', 'blue'])
@@ -292,7 +292,7 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
                 player_2_choice = self.player_choices()
                 print("Press Enter when ready to continue....")
                 print(f"\n{player_1_name} chose: {player_1_choice}")
-                print(f"\n{player_2_name} chose: {player_2_choice}")
+                print(f"\n{player_2_name} chose: {player_2_choice}\n")
                 
                 result= self.determine_winner_friend(player_1_choice,player_2_choice, player_1_name, player_2_name)
                 print(result)
@@ -304,7 +304,7 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
             
         
 
-            self.save_scores_friend()
+            self.save_scores_friend(player_1_name, player_2_name)
             # reading from the score.txt
             print("---------------- SCORES -------------------")
             
@@ -312,11 +312,11 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
                 scores = file.read()
             print(scores)
             
-            print(" ------------------------------------------")
+            print("-------------------------------------------")
               
                  
             
-            print(f"Player1_Wins: {self.player1_wins}, Player2_Wins: {self.player2_wins}, Draws: {self.draws}")
+            print(f"{player_1_name}'s points: {self.player1_wins}, {player_2_name}'s points: {self.player2_wins}, Draws: {self.draws}")
 
             if self.player1_wins > self.player2_wins: 
                 print(f"{player_1_name} is on wining streak...!")
@@ -330,7 +330,7 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
             
             view_graph = input("\nWould you like to see the results in a bar graph? (y/n):").lower()
             if view_graph == "y":
-                self.draw_bar_graph_friend()
+                self.draw_bar_graph_friend(player_1_name, player_2_name)
             
 
             print("---------------------------------------------")
