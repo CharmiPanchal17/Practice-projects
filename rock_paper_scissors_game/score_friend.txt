@@ -1,1 +1,1 @@
-c WINS | 0 | r WINS | 0 | DRAWS | 2 |
+r's WINS | 2 | c's WINS | 2 | DRAWS | 0 |
