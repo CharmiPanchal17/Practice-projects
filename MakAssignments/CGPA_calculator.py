@@ -1,16 +1,18 @@
+#The CGPA program
+
 student_name= input("Enter your name: ")
 student_number = input("Enter your student number: ")
 
-course1_mark= int(input("Enter your marks obtained in course unit 1: "))
+course1_mark= int(input("\nEnter your marks obtained in course unit 1: "))
 course1_creditunit = int(input("Enter the credit unit of course 1: "))
 
-course2_mark= int(input("Enter your marks obtained in course unit 2: "))
+course2_mark= int(input("\nEnter your marks obtained in course unit 2: "))
 course2_creditunit = int(input("Enter the credit unit of course 2: "))
 
-course3_mark= int(input("Enter your marks obtained in course unit 3: "))
+course3_mark= int(input("\nEnter your marks obtained in course unit 3: "))
 course3_creditunit = int(input("Enter the credit unit of course 3: "))
 
-course4_mark= int(input("Enter your marks obtained in course unit 4: "))
+course4_mark= int(input("\nEnter your marks obtained in course unit 4: "))
 course4_creditunit = int(input("Enter the credit unit of course 4: "))
 
 def grade_conversion(mark):
@@ -62,8 +64,29 @@ course4_point = grade_point(course4_grade)
 
 CGPA = ((course1_point*course1_creditunit)+(course1_point*course2_creditunit)+(course3_point*course3_creditunit)+(course4_point*course4_creditunit))/(course1_creditunit+course2_creditunit+course3_creditunit+course4_creditunit)
 
-print(f"\nStudent Name: {student_name}")
+print("\n--------------------------------")
+print(f"Student Name: {student_name}")
 
-print(f"\nStudent Number: {student_number}")
+print(f"Student Number: {student_number}")
 
-print(f"CGPA: {CGPA}")
+print(f"The CGPA obtained is: {CGPA}")
+print("--------------------------------")
+
+#Basic Calculator
+
+num1= int(student_number[-1])
+num2= int(student_number[-2])
+
+print(f"The last two digits of your student number are '{num1}' and '{num2}'")
+
+sum = num1+num2
+print(f" The Sum of the two digits is: {sum}")
+
+difference = num1-num2
+print(f" The difference between the two digits is: {difference}")
+
+product = num1*num2
+print(f" The product of the two digits is: {product}")
+
+quotient = num1/num2
+print(f" The quotient of the two digits is: {quotient}")
