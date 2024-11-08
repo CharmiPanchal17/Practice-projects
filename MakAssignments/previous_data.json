@@ -1,16 +1,9 @@
 {
-    "1001": {
-        "name": "ch",
-        "Math": 100,
-        "SST": 88,
-        "Science": 88,
-        "English": 88
-    },
-    "1001": {
-        "name": "ch",
+    "101": {
+        "name": "Charmi Panchal",
         "Math": 87,
-        "SST": 74,
-        "Science": 63,
-        "English": 78
+        "SST": 65,
+        "Science": 78,
+        "English": 69
     }
 }

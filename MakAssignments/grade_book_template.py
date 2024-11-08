@@ -172,7 +172,7 @@ def main():
                     print(f"Student with admin number '{admin_no}' already exists.")
                     continue  
 
-                name = input("Enter the name of the student: ")
+                name = input("Enter the name of the student: ").title()
                 student = Student(admin_no, name)
                 
                 if gradebook.add_student(student):
@@ -198,7 +198,7 @@ def main():
                 admin_no = int(input("Enter the admin_no of student to view: "))
                 student = gradebook.view_student_grades(admin_no) 
                 if student:
-                    print(f"\n--- Grades for {Gradebook.gradebook[admin_no]['name']} ---")
+                    print(f"\n--- Grades of {Gradebook.gradebook[admin_no]['name']} ---")
                     for subject, grade in student.items():
                         print(f"{subject}: {grade}")
                 else:
