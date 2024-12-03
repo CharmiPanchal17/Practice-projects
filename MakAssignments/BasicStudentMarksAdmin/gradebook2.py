@@ -121,7 +121,7 @@ class TeacherView(GradeBook):
         else:
             print(f"Student with admin_no '{admin_no}' not found.")
 
-    def edit_student(admin_no):
+    def edit_student(self, admin_no):
         try:
             admin_no = int(input("Enter the admin number of the student to edit: "))
             if admin_no in grade_book:

@@ -5,5 +5,12 @@
         "SST": 65,
         "Science": 78,
         "English": 69
+    },
+    "100": {
+        "name": "Charmi",
+        "Math": 89,
+        "SST": 84,
+        "Science": 87,
+        "English": 78
     }
 }
