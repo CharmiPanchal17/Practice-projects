@@ -1,4 +1,6 @@
 import random
+import matplotlib.pyplot as plt 
+import numpy as np
 import getpass
 import time
 
@@ -40,6 +42,17 @@ class Game_Rock_Paper_Scissors_Computer:
             file.write(f"WINS | {self.wins} |")
             file.write(f" LOSES | {self.losses} |")
             file.write(f" DRAWS | {self.ties} |")
+
+    # drawing a bar graph
+    def draw_bar_graph_comp(self):
+        labels = ['Wins', 'Losses', 'Ties']
+        values = [self.wins, self.losses, self.ties]
+
+        plt.bar(labels, values, color=['green', 'red', 'blue'])
+        plt.xlabel('Result')
+        plt.ylabel('Points')
+        plt.title('Game Results with the Computer')
+        plt.show()
 
     # Player choice to pick from the list self.choices
     def get_player_choice(self):
@@ -158,6 +171,10 @@ class Main1(Game_Rock_Paper_Scissors_Computer):
                 # emojis 
                 emoji = "\U0001F923"
                 print("Its neck and neck! Keep playing to see who comes out on top.", emoji)
+
+            view_graph = input("\nWould you like to see the results in a bar graph? (y/n):").lower()
+            if view_graph == "y":
+                self.draw_bar_graph_comp()
             
             print("---------------------------------------------")
             play_again = input("Do you want to play again? (yes/no): ").lower()
@@ -197,11 +214,23 @@ class Game_Rock_Paper_Scissors_Friend:
             print("File Not found!")
             
     # writting to score_friend.txt
-    def save_scores_friend(self):
+    def save_scores_friend(self, player_1_name, player_2_name):
         with open("score_friend.txt", "w+") as file:
-            file.write(f"PLAYER_1 WINS | {self.player1_wins} |")
-            file.write(f" PLAYER_2 WINS | {self.player2_wins} |")
+            file.write(f"{player_1_name}'s WINS | {self.player1_wins} |")
+            file.write(f" {player_2_name}'s WINS | {self.player2_wins} |")
             file.write(f" DRAWS | {self.draws} |")
+
+    # to draw a graph
+    def draw_bar_graph_friend(self, player_1_name, player_2_name):
+        labels = [f'{player_1_name} points', f'{player_2_name} points', 'Draws']
+        values = [self.player1_wins, self.player2_wins, self.draws]
+
+        plt.bar(labels, values, color=['green', 'red', 'blue'])
+        plt.xlabel('Result')
+        plt.ylabel('Points')
+        plt.title('Game Results with a friend')
+        plt.show()
+
 
 class Main2(Game_Rock_Paper_Scissors_Friend):
     def __init__(self):
@@ -229,7 +258,7 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
             return f"{player_1_name} wins!"
 
         elif (player_1_choice == "paper" and player_2_choice == "rock"):
-            self.player2_wins += 1
+            self.player1_wins += 1
             return f"{player_1_name} wins!"
 
         elif (player_1_choice == "scissors" and player_2_choice == "paper"):
@@ -250,20 +279,24 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
             print("\n")
             player_1_name = input("Please enter username of player 1: ")
             player_2_name = input("Please enter username of player 2: ")
-            
-            print(f"\n{player_2_name}, Please look away...! Let {player_1_name} enter...")
-            player_1_choice = self.player_choices()
-            print("Press Enter when ready to continue....")
-            time.sleep(1)
-            print(f"\n{player_1_name}, Please look away...! Let {player_2_name} enter...")
-            player_2_choice = self.player_choices()
-            print("Press Enter when ready to continue....")
-            print(f"\n{player_1_name} chose: {player_1_choice}")
-            print(f"\n{player_2_name} chose: {player_2_choice}")
-            
-            result= self.determine_winner_friend(player_1_choice,player_2_choice, player_1_name, player_2_name)
-            print(result)
-    
+
+            rounds_friend = input("Enter the number of rounds you wish to play: ")
+
+            for round in range(1, int(rounds_friend) + 1):
+                print(f"\nRound {round}:")            
+                print(f"\n{player_2_name}, Please look away...! Let {player_1_name} enter...")
+                player_1_choice = self.player_choices()
+                print("Press Enter when ready to continue....")
+                time.sleep(1)
+                print(f"\n{player_1_name}, Please look away...! Let {player_2_name} enter...")
+                player_2_choice = self.player_choices()
+                print("Press Enter when ready to continue....")
+                print(f"\n{player_1_name} chose: {player_1_choice}")
+                print(f"\n{player_2_name} chose: {player_2_choice}\n")
+                
+                result= self.determine_winner_friend(player_1_choice,player_2_choice, player_1_name, player_2_name)
+                print(result)
+        
             time.sleep(1)
             print("\nCalculating results.....")
             print("================================")
@@ -271,7 +304,7 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
             
         
 
-            self.save_scores_friend()
+            self.save_scores_friend(player_1_name, player_2_name)
             # reading from the score.txt
             print("---------------- SCORES -------------------")
             
@@ -279,11 +312,11 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
                 scores = file.read()
             print(scores)
             
-            print(" ------------------------------------------")
+            print("-------------------------------------------")
               
                  
             
-            print(f"Player1_Wins: {self.player1_wins}, Player2_Wins: {self.player2_wins}, Draws: {self.draws}")
+            print(f"{player_1_name}'s points: {self.player1_wins}, {player_2_name}'s points: {self.player2_wins}, Draws: {self.draws}")
 
             if self.player1_wins > self.player2_wins: 
                 print(f"{player_1_name} is on wining streak...!")
@@ -295,7 +328,11 @@ class Main2(Game_Rock_Paper_Scissors_Friend):
                 emoji = "\U0001F923"
                 print("Its neck and neck! Keep playing to see who comes out on top.", emoji)
             
+            view_graph = input("\nWould you like to see the results in a bar graph? (y/n):").lower()
+            if view_graph == "y":
+                self.draw_bar_graph_friend(player_1_name, player_2_name)
             
+
             print("---------------------------------------------")
             play_again = input("Do you want to play again? (yes/no): ").lower()
             

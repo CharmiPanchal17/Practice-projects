@@ -1,1 +1,1 @@
-WINS | 2 | LOSES | 0 | DRAWS | 0 |
+WINS | 0 | LOSES | 0 | DRAWS | 2 |
